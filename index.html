@@ -23,35 +23,57 @@
     <header class="header">
       <div class="container">
         <nav class="nav">
-          <a href="./index.html" class="logo"
+          <a
+            href="./index.html"
+            class="logo"
+            rel="noopener noreferrer"
+            aria-label="Link to main page"
             >Web<span class="logo-dark">Studio</span></a
           >
           <ul class="nav-menu">
             <li>
-              <a href="./index.html" class="nav-link active">Studio</a>
+              <a
+                href="./index.html"
+                class="nav-link active"
+                rel="noopener noreferrer"
+                >Studio</a
+              >
             </li>
             <li>
-              <a href="" class="nav-link">Portfolio</a>
+              <a href="" class="nav-link" rel="noopener noreferrer"
+                >Portfolio</a
+              >
             </li>
             <li>
-              <a href="" class="nav-link">Contacts</a>
+              <a href="" class="nav-link" rel="noopener noreferrer">Contacts</a>
             </li>
           </ul>
         </nav>
         <address class="address">
           <ul class="contacts">
             <li>
-              <a href="mailto:info@devstudio.com" class="contacts-link"
+              <a
+                href="mailto:info@devstudio.com"
+                class="contacts-link"
+                rel="noopener noreferrer"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a href="tel:+110001111111" class="contacts-link"
+              <a
+                href="tel:+110001111111"
+                class="contacts-link"
+                rel="noopener noreferrer"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+        <!-- <button type="button" class="mobile-menu-btn">
+          <svg class="mobile-menu-icon" width="24" height="24">
+            <use href="./images/icons.svg#menu"></use>
+          </svg>
+        </button> -->
       </div>
     </header>
 
@@ -125,38 +147,43 @@
           <ul class="team-list">
             <li class="team-item">
               <img
-                src="./images/team/img-0.jpg"
+                srcset="
+                  ./images/team/guerrero.jpg    1x,
+                  ./images/team/guerrero-2x.jpg 2x
+                "
+                src="./images/team/guerrero.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
+                loading="lazy"
               />
               <div class="item-content">
                 <h3 class="item-title">Mark Guerrero</h3>
                 <p class="item-text">Product Designer</p>
                 <ul class="socials">
                   <li class="social-wrapper">
-                    <a href="" class="social-link">
+                    <a href="" class="social-link" rel="noopener noreferrer">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-wrapper">
-                    <a href="" class="social-link">
+                    <a href="" class="social-link" rel="noopener noreferrer">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-wrapper">
-                    <a href="" class="social-link">
+                    <a href="" class="social-link" rel="noopener noreferrer">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-wrapper">
-                    <a href="" class="social-link">
+                    <a href="" class="social-link" rel="noopener noreferrer">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#linkedin"></use>
                       </svg>
@@ -167,38 +194,40 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/team/img-1.jpg"
+                srcset="./images/team/ford.jpg 1x, ./images/team/ford-2x.jpg 2x"
+                src="./images/team/ford.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
+                loading="lazy"
               />
               <div class="item-content">
                 <h3 class="item-title">Tom Ford</h3>
                 <p class="item-text">Frontend Developer</p>
                 <ul class="socials">
                   <li class="social-wrapper">
-                    <a href="" class="social-link">
+                    <a href="" class="social-link" rel="noopener noreferrer">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-wrapper">
-                    <a href="" class="social-link">
+                    <a href="" class="social-link" rel="noopener noreferrer">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-wrapper">
-                    <a href="" class="social-link">
+                    <a href="" class="social-link" rel="noopener noreferrer">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-wrapper">
-                    <a href="" class="social-link">
+                    <a href="" class="social-link" rel="noopener noreferrer">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#linkedin"></use>
                       </svg>
@@ -209,38 +238,43 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/team/img-2.jpg"
+                srcset="
+                  ./images/team/garcia.jpg    1x,
+                  ./images/team/garcia-2x.jpg 2x
+                "
+                src="./images/team/garcia.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
+                loading="lazy"
               />
               <div class="item-content">
                 <h3 class="item-title">Camila Garcia</h3>
                 <p class="item-text">Marketing</p>
                 <ul class="socials">
                   <li class="social-wrapper">
-                    <a href="" class="social-link">
+                    <a href="" class="social-link" rel="noopener noreferrer">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-wrapper">
-                    <a href="" class="social-link">
+                    <a href="" class="social-link" rel="noopener noreferrer">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-wrapper">
-                    <a href="" class="social-link">
+                    <a href="" class="social-link" rel="noopener noreferrer">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-wrapper">
-                    <a href="" class="social-link">
+                    <a href="" class="social-link" rel="noopener noreferrer">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#linkedin"></use>
                       </svg>
@@ -251,38 +285,43 @@
             </li>
             <li class="team-item">
               <img
-                src="./images/team/img-3.jpg"
+                srcset="
+                  ./images/team/wilson.jpg    1x,
+                  ./images/team/wilson-2x.jpg 2x
+                "
+                src="./images/team/wilson.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
+                loading="lazy"
               />
               <div class="item-content">
                 <h3 class="item-title">Daniel Wilson</h3>
                 <p class="item-text">UI Designer</p>
                 <ul class="socials">
                   <li class="social-wrapper">
-                    <a href="" class="social-link">
+                    <a href="" class="social-link" rel="noopener noreferrer">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#instagram"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-wrapper">
-                    <a href="" class="social-link">
+                    <a href="" class="social-link" rel="noopener noreferrer">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#twitter"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-wrapper">
-                    <a href="" class="social-link">
+                    <a href="" class="social-link" rel="noopener noreferrer">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#facebook"></use>
                       </svg>
                     </a>
                   </li>
                   <li class="social-wrapper">
-                    <a href="" class="social-link">
+                    <a href="" class="social-link" rel="noopener noreferrer">
                       <svg class="icon" width="16" height="16">
                         <use href="./images/icons.svg#linkedin"></use>
                       </svg>
@@ -301,12 +340,35 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="image-wrapper">
-                <img
-                  src="images/portfolio/img-0.jpg"
-                  width="360"
-                  height="300"
-                  alt="Banking App"
-                />
+                <picture class="portfolio-picture">
+                  <source
+                    srcset="
+                      ./images/portfolio/banking_app_desktop.jpg    1x,
+                      ./images/portfolio/banking_app_desktop-2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/banking_app-tb.jpg    1x,
+                      ./images/portfolio/banking_app-tb-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/banking_app-mb.jpg    1x,
+                      ./images/portfolio/banking_app-mb-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/portfolio/banking_app-mb.jpg"
+                    alt="Banking App"
+                    width="360"
+                    loading="lazy"
+                  />
+                </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -320,12 +382,35 @@
             </li>
             <li class="portfolio-item">
               <div class="image-wrapper">
-                <img
-                  src="images/portfolio/img-1.jpg"
-                  width="360"
-                  height="300"
-                  alt="Cashless Payment"
-                />
+                <picture class="portfolio-picture">
+                  <source
+                    srcset="
+                      ./images/portfolio/cashless_payment_desktop.jpg    1x,
+                      ./images/portfolio/cashless_payment_desktop-2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/cashless_payment-tb.jpg    1x,
+                      ./images/portfolio/cashless_payment-tb-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/cashless_payment-mb.jpg    1x,
+                      ./images/portfolio/cashless_payment-mb-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/portfolio/cashless_payment-mb.jpg"
+                    alt="Cashless Payment"
+                    width="360"
+                    loading="lazy"
+                  />
+                </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -339,12 +424,35 @@
             </li>
             <li class="portfolio-item">
               <div class="image-wrapper">
-                <img
-                  src="images/portfolio/img-2.jpg"
-                  width="360"
-                  height="300"
-                  alt="Meditation App"
-                />
+                <picture class="portfolio-picture">
+                  <source
+                    srcset="
+                      ./images/portfolio/meditation_app_desktop.jpg    1x,
+                      ./images/portfolio/meditation_app_desktop-2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/meditation_app-tb.jpg    1x,
+                      ./images/portfolio/meditation_app-tb-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/meditation_app-mb.jpg    1x,
+                      ./images/portfolio/meditation_app-mb-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/portfolio/meditation_app-mb.jpg"
+                    alt="Meditation App"
+                    width="360"
+                    loading="lazy"
+                  />
+                </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -358,12 +466,35 @@
             </li>
             <li class="portfolio-item">
               <div class="image-wrapper">
-                <img
-                  src="images/portfolio/img-3.jpg"
-                  width="360"
-                  height="300"
-                  alt="Taxi Service"
-                />
+                <picture class="portfolio-picture">
+                  <source
+                    srcset="
+                      ./images/portfolio/taxi_service_desktop.jpg    1x,
+                      ./images/portfolio/taxi_service_desktop-2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/taxi_service-tb.jpg    1x,
+                      ./images/portfolio/taxi_service-tb-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/taxi_service-mb.jpg    1x,
+                      ./images/portfolio/taxi_service-mb-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/portfolio/taxi_service-mb.jpg"
+                    alt="Taxi Service"
+                    width="360"
+                    loading="lazy"
+                  />
+                </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -377,12 +508,35 @@
             </li>
             <li class="portfolio-item">
               <div class="image-wrapper">
-                <img
-                  src="images/portfolio/img-4.jpg"
-                  width="360"
-                  height="300"
-                  alt="Screen Illustrations"
-                />
+                <picture class="portfolio-picture">
+                  <source
+                    srcset="
+                      ./images/portfolio/screen_illustrations_desktop.jpg    1x,
+                      ./images/portfolio/screen_illustrations_desktop-2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/screen_illustrations-tb.jpg    1x,
+                      ./images/portfolio/screen_illustrations-tb-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/screen_illustrations-mb.jpg    1x,
+                      ./images/portfolio/screen_illustrations-mb-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/portfolio/screen_illustrations-mb.jpg"
+                    alt="Screen Illustrations"
+                    width="360"
+                    loading="lazy"
+                  />
+                </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -396,12 +550,35 @@
             </li>
             <li class="portfolio-item">
               <div class="image-wrapper">
-                <img
-                  src="images/portfolio/img-5.jpg"
-                  width="360"
-                  height="300"
-                  alt="Online Courses"
-                />
+                <picture class="portfolio-picture">
+                  <source
+                    srcset="
+                      ./images/portfolio/online_courses_desktop.jpg    1x,
+                      ./images/portfolio/online_courses_desktop-2x.jpg 2x
+                    "
+                    media="(min-width: 1158px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/online_courses-tb.jpg    1x,
+                      ./images/portfolio/online_courses-tb-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/portfolio/online_courses-mb.jpg    1x,
+                      ./images/portfolio/online_courses-mb-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    src="./images/portfolio/online_courses-mb.jpg"
+                    alt="Online Courses"
+                    width="360"
+                    loading="lazy"
+                  />
+                </picture>
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -421,7 +598,11 @@
     <footer class="footer">
       <div class="container">
         <div class="column">
-          <a href="./index.html" class="logo"
+          <a
+            href="./index.html"
+            class="logo"
+            rel="noopener noreferrer"
+            aria-label="Link to main page"
             >Web<span class="logo-light">Studio</span></a
           >
           <p class="footer-text">
@@ -433,28 +614,28 @@
           <p class="column-title">Social media</p>
           <ul class="socials">
             <li class="social-wrapper">
-              <a href="" class="social-link">
+              <a href="" class="social-link" rel="noopener noreferrer">
                 <svg class="icon" width="24" height="24">
                   <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-wrapper">
-              <a href="" class="social-link">
+              <a href="" class="social-link" rel="noopener noreferrer">
                 <svg class="icon" width="24" height="24">
                   <use href="./images/icons.svg#twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social-wrapper">
-              <a href="" class="social-link">
+              <a href="" class="social-link" rel="noopener noreferrer">
                 <svg class="icon" width="24" height="24">
                   <use href="./images/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-wrapper">
-              <a href="" class="social-link">
+              <a href="" class="social-link" rel="noopener noreferrer">
                 <svg class="icon" width="24" height="24">
                   <use href="./images/icons.svg#linkedin"></use>
                 </svg>
@@ -570,7 +751,9 @@
                 </svg>
               </span>
               I accept the terms and conditions of the&nbsp;
-              <a class="modal-form-link" href="">Privacy Policy</a>
+              <a class="modal-form-link" href="" rel="noopener noreferrer"
+                >Privacy Policy</a
+              >
             </label>
           </div>
           <button class="btn btn-accent" type="submit">Send</button>
