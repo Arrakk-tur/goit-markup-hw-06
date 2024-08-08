@@ -403,6 +403,7 @@ section {
 .btn-accent {
   background-color: var(--iris);
   color: var(--white);
+  fill: var(--white);
 }
 
 .btn-accent:hover,
@@ -777,6 +778,7 @@ section {
 @media screen and (min-width: 768px) {
   .footer > .container {
     flex-direction: row;
+    flex-wrap: wrap;
     width: 584px;
     column-gap: 24px;
     row-gap: 72px;
@@ -1033,8 +1035,9 @@ input[type="checkbox"]:checked + .modal-form-desc > .modal-form-checkbox {
 
 /* #region Mobile menu*/
 .mobile-menu {
-  position: absolute;
+  position: fixed;
   inset: 0;
+  z-index: 99;
   display: flex;
   flex-direction: column;
   padding: 72px 16px 40px;
@@ -1084,7 +1087,7 @@ input[type="checkbox"]:checked + .modal-form-desc > .modal-form-checkbox {
   color: var(--ocean);
 }
 .socials-wrapper {
-  width: auto;
+  width: fit-content;
 }
 .mobile-menu .socials {
   display: flex;
